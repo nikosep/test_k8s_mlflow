@@ -1,0 +1,7 @@
+**How to deploy this python app to Kubernetes**
+
+-- pip install kubernetes
+-- export KUBECONFIG=kube_conf (this provided by the k8s admin)
+-- docker build -t deeplabepitro/k8s-example .
+-- docker push deeplabepitro/k8s-example
+-- kubectl create -f deployment.yaml
