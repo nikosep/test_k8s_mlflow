@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: "k8s-example-v9"
+  name: "k8s-example-v11"
   namespace: default
 spec:
   ttlSecondsAfterFinished: 100
